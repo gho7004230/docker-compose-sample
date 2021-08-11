@@ -11,7 +11,6 @@ This instructs Compose to run django-admin startproject composeexample in a cont
 Once the web service image is built, Compose runs it and executes the django-admin startproject command in the container. This command instructs Django to create a set of files and directories representing a Django project.
 
 2. In your project directory, edit the composeexample/settings.py file:
-# settings.py
 
 ALLOWED_HOSTS = ['*']
    
